@@ -1,10 +1,10 @@
-#include <QGuiApplication>
+#include <QApplication>
 #include <QQmlApplicationEngine>
-
+#include  "plot.h"
 int main(int argc, char *argv[])
 {
-    QGuiApplication app(argc, argv);
-
+    QApplication app(argc, argv);
+    qmlRegisterType<Plot>("Plots", 1,0 ,"PlotCpp");
     QQmlApplicationEngine engine;
     QObject::connect(
         &engine,

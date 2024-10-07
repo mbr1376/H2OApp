@@ -4,6 +4,7 @@ import QtQuick.Controls 2.15
 Item {
     id: _item
     property string _label: "Plot"
+    signal itemClicked( int points)
     Rectangle{
         id:rectangel
         anchors.fill: parent
@@ -37,7 +38,10 @@ Item {
                 border.color: "#E91E63"
                 radius: 10
             }
+            onClicked:{
 
+                itemClicked(spinBox.value)
+            }
         }
 
 

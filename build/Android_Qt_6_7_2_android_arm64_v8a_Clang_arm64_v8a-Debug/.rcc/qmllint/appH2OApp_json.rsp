@@ -1,0 +1,15 @@
+--bare
+-I
+/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug
+-I
+/Users/mbr/Qt/6.7.2/android_arm64_v8a/./qml
+--resource
+/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qmake_H2OApp.qrc
+--resource
+/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/appH2OApp_raw_qml_0.qrc
+/Users/mbr/H2OApp/Main.qml
+/Users/mbr/H2OApp/Plot.qml
+/Users/mbr/H2OApp/ItemPlot.qml
+/Users/mbr/H2OApp/Chart.qml
+--json
+/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/appH2OApp_qmllint.json

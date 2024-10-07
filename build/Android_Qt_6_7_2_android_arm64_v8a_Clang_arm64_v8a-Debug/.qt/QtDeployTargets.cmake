@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appH2OApp_FILE /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/libappH2OApp_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_appH2OApp_TYPE MODULE_LIBRARY)

@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/H2OApp/">
+    <file alias="Main.qml">/Users/mbr/H2OApp/Main.qml</file>
+    <file alias="Plot.qml">/Users/mbr/H2OApp/Plot.qml</file>
+    <file alias="ItemPlot.qml">/Users/mbr/H2OApp/ItemPlot.qml</file>
+    <file alias="Chart.qml">/Users/mbr/H2OApp/Chart.qml</file>
+    <file alias="img/molecule.png">/Users/mbr/H2OApp/img/molecule.png</file>
+    <file alias="img/scatter-graph.png">/Users/mbr/H2OApp/img/scatter-graph.png</file>
+    <file alias="img/liquid-vapor.png">/Users/mbr/H2OApp/img/liquid-vapor.png</file>
+    <file alias="img/saturation_Point.png">/Users/mbr/H2OApp/img/saturation_Point.png</file>
+    <file alias="img/Compressed.png">/Users/mbr/H2OApp/img/Compressed.png</file>
+    <file alias="img/vapor.png">/Users/mbr/H2OApp/img/vapor.png</file>
+    <file alias="img/back.png">/Users/mbr/H2OApp/img/back.png</file>
+  </qresource>
+</RCC>
+

@@ -108,7 +108,11 @@ StackLayout{
                 TabButton{
                     font.bold: true
                     font.pointSize: 14
-                    text: qsTr("Settings")
+                    text: qsTr("Sturation Point")
+                    display: AbstractButton.IconOnly
+                    icon.source: "img/saturation_Point.png"
+                    icon.color: checked ?  "#E91E63": "#FFFFFF"
+                    onClicked: textHeader.text = text
                 }
                 TabButton{
                     font.bold: true

@@ -1,0 +1,8 @@
+module H2OApp
+typeinfo appH2OApp.qmltypes
+prefer :/qt/qml/H2OApp/
+Main 1.0 Main.qml
+Plot 1.0 Plot.qml
+ItemPlot 1.0 ItemPlot.qml
+Chart 1.0 Chart.qml
+
