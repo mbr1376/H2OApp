@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5a711c5a4e47a07e1f0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "H2OApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-5b2325b6f9a160e89098.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-46c0897e48be97e051f6.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-3055d2bdf6f90570ae31.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e8e5882454eccd753cb4.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-f92b6bbc792628a74e29.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-1e048e0b9a05cc163564.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-071b36c4c6576770b354.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-396ec348d713689c8cf2.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp-Debug-5ea6c185b720d49d8f78.json",
+					"name" : "appH2OApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_autogen-Debug-bd5f60d87d5dfda38425.json",
+					"name" : "appH2OApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_autogen_timestamp_deps-Debug-1011064e7dda64c39fab.json",
+					"name" : "appH2OApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_make_aab-Debug-57f69232f7856509943f.json",
+					"name" : "appH2OApp_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_make_apk-Debug-3a6618b78a56e626e31e.json",
+					"name" : "appH2OApp_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_prepare_apk_dir-Debug-8d2e3205360ab4c84dc0.json",
+					"name" : "appH2OApp_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_qmllint-Debug-9d6b41c2b2c9d6e22444.json",
+					"name" : "appH2OApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_qmllint_json-Debug-8b4939bd980c3ba44dd2.json",
+					"name" : "appH2OApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_qmllint_module-Debug-a165083c8aa2cfd7d529.json",
+					"name" : "appH2OApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_qmltyperegistration-Debug-9eb68c96728db7f7bb28.json",
+					"name" : "appH2OApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appH2OApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appH2OApp_tooling-Debug-35c6cf1dd807bfdeec1f.json",
+					"name" : "appH2OApp_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-94ada2012f1f99cbacb9.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug",
+		"source" : "/Users/mbr/H2OApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
