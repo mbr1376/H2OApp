@@ -6,3 +6,5 @@
 /qt/qml/H2OApp/Plot.qml
 /qt/qml/H2OApp/ItemPlot.qml
 /qt/qml/H2OApp/Chart.qml
+/qt/qml/H2OApp/FrmLiquidVapor.qml
+/qt/qml/H2OApp/InputLiquidVapor.qml

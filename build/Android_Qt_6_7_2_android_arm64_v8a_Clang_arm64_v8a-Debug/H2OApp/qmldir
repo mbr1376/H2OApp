@@ -5,4 +5,6 @@ Main 1.0 Main.qml
 Plot 1.0 Plot.qml
 ItemPlot 1.0 ItemPlot.qml
 Chart 1.0 Chart.qml
+FrmLiquidVapor 1.0 FrmLiquidVapor.qml
+InputLiquidVapor 1.0 InputLiquidVapor.qml
 

@@ -150,10 +150,32 @@ H2OApp/appH2OApp.qmltypes: apph2oapp_qmltyperegistrations.cpp
 	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E make_directory /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache
 	/Users/mbr/Qt/6.7.2/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/H2OApp/Chart.qml -I /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug -I /Users/mbr/Qt/6.7.2/android_arm64_v8a/./qml -i /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/qmldir --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qmake_H2OApp.qrc --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/appH2OApp_raw_qml_0.qrc -o /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp /Users/mbr/H2OApp/Chart.qml
 
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: /Users/mbr/Qt/6.7.2/macos/libexec/qmlcachegen
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: /Users/mbr/H2OApp/FrmLiquidVapor.qml
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: .qt/rcc/qmake_H2OApp.qrc
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: .qt/rcc/appH2OApp_raw_qml_0.qrc
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: H2OApp/appH2OApp.qmltypes
+.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp: H2OApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp"
+	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E make_directory /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache
+	/Users/mbr/Qt/6.7.2/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/H2OApp/FrmLiquidVapor.qml -I /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug -I /Users/mbr/Qt/6.7.2/android_arm64_v8a/./qml -i /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/qmldir --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qmake_H2OApp.qrc --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/appH2OApp_raw_qml_0.qrc -o /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp /Users/mbr/H2OApp/FrmLiquidVapor.qml
+
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: /Users/mbr/Qt/6.7.2/macos/libexec/qmlcachegen
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: /Users/mbr/H2OApp/InputLiquidVapor.qml
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: .qt/rcc/qmake_H2OApp.qrc
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: .qt/rcc/appH2OApp_raw_qml_0.qrc
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: H2OApp/appH2OApp.qmltypes
+.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp: H2OApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp"
+	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E make_directory /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache
+	/Users/mbr/Qt/6.7.2/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/H2OApp/InputLiquidVapor.qml -I /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug -I /Users/mbr/Qt/6.7.2/android_arm64_v8a/./qml -i /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/qmldir --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qmake_H2OApp.qrc --resource /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/appH2OApp_raw_qml_0.qrc -o /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp /Users/mbr/H2OApp/InputLiquidVapor.qml
+
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/Main.qml
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/Plot.qml
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/ItemPlot.qml
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/Chart.qml
+.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/FrmLiquidVapor.qml
+.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/InputLiquidVapor.qml
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/img/molecule.png
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/img/scatter-graph.png
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/img/liquid-vapor.png
@@ -163,29 +185,29 @@ H2OApp/appH2OApp.qmltypes: apph2oapp_qmltyperegistrations.cpp
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/H2OApp/img/back.png
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: .qt/rcc/appH2OApp_raw_qml_0.qrc
 .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp: /Users/mbr/Qt/6.7.2/macos/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running rcc for resource appH2OApp_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running rcc for resource appH2OApp_raw_qml_0"
 	/Users/mbr/Qt/6.7.2/macos/libexec/rcc --output /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp --name appH2OApp_raw_qml_0 /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/appH2OApp_raw_qml_0.qrc --no-zstd
 
 appH2OApp_autogen/timestamp: /Users/mbr/Qt/6.7.2/macos/./libexec/moc
 appH2OApp_autogen/timestamp: /Users/mbr/Qt/6.7.2/macos/./libexec/uic
 appH2OApp_autogen/timestamp: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Automatic MOC and UIC for target appH2OApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Automatic MOC and UIC for target appH2OApp"
 	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_autogen /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles/appH2OApp_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E touch /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/appH2OApp_autogen/timestamp
 
 meta_types/appH2OApp_json_file_list.txt: /Users/mbr/Qt/6.7.2/macos/./libexec/cmake_automoc_parser
 meta_types/appH2OApp_json_file_list.txt: appH2OApp_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running AUTOMOC file extraction for target appH2OApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running AUTOMOC file extraction for target appH2OApp"
 	/Users/mbr/Qt/6.7.2/macos/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles/appH2OApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles/appH2OApp_autogen.dir/AutogenInfo.json --output-file-path /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/meta_types/appH2OApp_json_file_list.txt --timestamp-file-path /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/meta_types/appH2OApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/appH2OApp_autogen/include
 
 meta_types/qt6apph2oapp_debug_metatypes.json: meta_types/qt6apph2oapp_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating meta_types/qt6apph2oapp_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating meta_types/qt6apph2oapp_debug_metatypes.json"
 	/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E true
 
 CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o: appH2OApp_autogen/mocs_compilation.cpp
 CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/appH2OApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -199,7 +221,7 @@ CMakeFiles/appH2OApp.dir/appH2OApp_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/appH2OApp.dir/main.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/main.cpp.o: /Users/mbr/H2OApp/main.cpp
 CMakeFiles/appH2OApp.dir/main.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appH2OApp.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appH2OApp.dir/main.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/main.cpp.o -MF CMakeFiles/appH2OApp.dir/main.cpp.o.d -o CMakeFiles/appH2OApp.dir/main.cpp.o -c /Users/mbr/H2OApp/main.cpp
 
 CMakeFiles/appH2OApp.dir/main.cpp.i: cmake_force
@@ -213,7 +235,7 @@ CMakeFiles/appH2OApp.dir/main.cpp.s: cmake_force
 CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o: apph2oapp_qmltyperegistrations.cpp
 CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o -MF CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/apph2oapp_qmltyperegistrations.cpp
 
 CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.i: cmake_force
@@ -227,7 +249,7 @@ CMakeFiles/appH2OApp.dir/apph2oapp_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o: .qt/rcc/qrc_qmake_H2OApp.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_qmake_H2OApp.cpp.i: cmake_force
@@ -241,7 +263,7 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o: /Users/mbr/H2OApp/convermatlabtoc.cpp
 CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o -MF CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o.d -o CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.o -c /Users/mbr/H2OApp/convermatlabtoc.cpp
 
 CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.i: cmake_force
@@ -255,7 +277,7 @@ CMakeFiles/appH2OApp.dir/convermatlabtoc.cpp.s: cmake_force
 CMakeFiles/appH2OApp.dir/plot.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/plot.cpp.o: /Users/mbr/H2OApp/plot.cpp
 CMakeFiles/appH2OApp.dir/plot.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appH2OApp.dir/plot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appH2OApp.dir/plot.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/plot.cpp.o -MF CMakeFiles/appH2OApp.dir/plot.cpp.o.d -o CMakeFiles/appH2OApp.dir/plot.cpp.o -c /Users/mbr/H2OApp/plot.cpp
 
 CMakeFiles/appH2OApp.dir/plot.cpp.i: cmake_force
@@ -269,7 +291,7 @@ CMakeFiles/appH2OApp.dir/plot.cpp.s: cmake_force
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o: .rcc/qmlcache/appH2OApp_qmlcache_loader.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_qmlcache_loader.cpp.i: cmake_force
@@ -283,7 +305,7 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o: .rcc/qmlcache/appH2OApp_Main_qml.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Main_qml.cpp.i: cmake_force
@@ -297,7 +319,7 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o: .rcc/qmlcache/appH2OApp_Plot_qml.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.i: cmake_force
@@ -311,7 +333,7 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o: .rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.i: cmake_force
@@ -325,7 +347,7 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o: .rcc/qmlcache/appH2OApp_Chart_qml.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.i: cmake_force
@@ -336,10 +358,38 @@ CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.s"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.s
 
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o: .rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp
+
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.i"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp > CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.i
+
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.s"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.s
+
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o: .rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp
+
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.i"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp > CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.i
+
+CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.s"
+	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.s
+
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o: CMakeFiles/appH2OApp.dir/flags.make
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o: .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o: CMakeFiles/appH2OApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o"
 	/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o -MF CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o.d -o CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o -c /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp
 
 CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.i: cmake_force
@@ -363,6 +413,8 @@ appH2OApp_OBJECTS = \
 "CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o" \
 "CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o" \
 "CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o" \
+"CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o" \
+"CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o" \
 "CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o"
 
 # External object files for target appH2OApp
@@ -379,6 +431,8 @@ libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_andro
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Plot_qml.cpp.o
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp.o
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_Chart_qml.cpp.o
+libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp.o
+libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp.o
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/.qt/rcc/qrc_appH2OApp_raw_qml_0.cpp.o
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/build.make
 libappH2OApp_arm64-v8a.so: /Users/mbr/Qt/6.7.2/android_arm64_v8a/lib/libQt6Quick_arm64-v8a.so
@@ -395,7 +449,7 @@ libappH2OApp_arm64-v8a.so: /Users/mbr/Qt/6.7.2/android_arm64_v8a/lib/libQt6Core_
 libappH2OApp_arm64-v8a.so: /Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so
 libappH2OApp_arm64-v8a.so: /Users/mbr/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libEGL.so
 libappH2OApp_arm64-v8a.so: CMakeFiles/appH2OApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX shared module libappH2OApp_arm64-v8a.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared module libappH2OApp_arm64-v8a.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appH2OApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -409,6 +463,8 @@ CMakeFiles/appH2OApp.dir/clean:
 CMakeFiles/appH2OApp.dir/depend: .qt/rcc/qrc_appH2OApp_raw_qml_0.cpp
 CMakeFiles/appH2OApp.dir/depend: .qt/rcc/qrc_qmake_H2OApp.cpp
 CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_Chart_qml.cpp
+CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_FrmLiquidVapor_qml.cpp
+CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_InputLiquidVapor_qml.cpp
 CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_ItemPlot_qml.cpp
 CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_Main_qml.cpp
 CMakeFiles/appH2OApp.dir/depend: .rcc/qmlcache/appH2OApp_Plot_qml.cpp

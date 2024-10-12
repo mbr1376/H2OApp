@@ -29,13 +29,8 @@ StackLayout{
           // Don't cover up the topBar
         currentIndex: tabBar.currentIndex
 
-        Item {
-            id: page1
-            Rectangle {
-                id: w1
-                anchors.fill: parent
-                color: 'red'
-            }
+        FrmLiquidVapor{
+
         }
 
         Item {

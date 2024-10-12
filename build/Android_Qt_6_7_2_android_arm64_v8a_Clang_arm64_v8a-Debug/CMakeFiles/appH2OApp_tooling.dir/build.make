@@ -82,35 +82,45 @@ H2OApp/Chart.qml: /Users/mbr/H2OApp/Chart.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Copying Chart.qml to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/Chart.qml"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/Chart.qml /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/Chart.qml
 
+H2OApp/FrmLiquidVapor.qml: /Users/mbr/H2OApp/FrmLiquidVapor.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Copying FrmLiquidVapor.qml to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/FrmLiquidVapor.qml"
+	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/FrmLiquidVapor.qml /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/FrmLiquidVapor.qml
+
+H2OApp/InputLiquidVapor.qml: /Users/mbr/H2OApp/InputLiquidVapor.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Copying InputLiquidVapor.qml to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/InputLiquidVapor.qml"
+	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/InputLiquidVapor.qml /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/InputLiquidVapor.qml
+
 H2OApp/img/molecule.png: /Users/mbr/H2OApp/img/molecule.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Copying img/molecule.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/molecule.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying img/molecule.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/molecule.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/molecule.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/molecule.png
 
 H2OApp/img/scatter-graph.png: /Users/mbr/H2OApp/img/scatter-graph.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Copying img/scatter-graph.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/scatter-graph.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying img/scatter-graph.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/scatter-graph.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/scatter-graph.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/scatter-graph.png
 
 H2OApp/img/liquid-vapor.png: /Users/mbr/H2OApp/img/liquid-vapor.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Copying img/liquid-vapor.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/liquid-vapor.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Copying img/liquid-vapor.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/liquid-vapor.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/liquid-vapor.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/liquid-vapor.png
 
 H2OApp/img/saturation_Point.png: /Users/mbr/H2OApp/img/saturation_Point.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Copying img/saturation_Point.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/saturation_Point.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Copying img/saturation_Point.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/saturation_Point.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/saturation_Point.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/saturation_Point.png
 
 H2OApp/img/Compressed.png: /Users/mbr/H2OApp/img/Compressed.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Copying img/Compressed.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/Compressed.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Copying img/Compressed.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/Compressed.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/Compressed.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/Compressed.png
 
 H2OApp/img/vapor.png: /Users/mbr/H2OApp/img/vapor.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Copying img/vapor.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/vapor.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Copying img/vapor.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/vapor.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/vapor.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/vapor.png
 
 H2OApp/img/back.png: /Users/mbr/H2OApp/img/back.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Copying img/back.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/back.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Copying img/back.png to /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/back.png"
 	cd /Users/mbr/H2OApp && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E copy /Users/mbr/H2OApp/img/back.png /Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp/img/back.png
 
 appH2OApp_tooling: H2OApp/Chart.qml
+appH2OApp_tooling: H2OApp/FrmLiquidVapor.qml
+appH2OApp_tooling: H2OApp/InputLiquidVapor.qml
 appH2OApp_tooling: H2OApp/ItemPlot.qml
 appH2OApp_tooling: H2OApp/Main.qml
 appH2OApp_tooling: H2OApp/Plot.qml

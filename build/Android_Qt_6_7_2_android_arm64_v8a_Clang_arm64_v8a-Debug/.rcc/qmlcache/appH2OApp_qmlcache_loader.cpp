@@ -33,6 +33,20 @@ namespace _qt_qml_H2OApp_Chart_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_H2OApp_FrmLiquidVapor_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_H2OApp_InputLiquidVapor_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +65,8 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/H2OApp/Plot.qml"), &QmlCacheGeneratedCode::_qt_qml_H2OApp_Plot_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/H2OApp/ItemPlot.qml"), &QmlCacheGeneratedCode::_qt_qml_H2OApp_ItemPlot_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/H2OApp/Chart.qml"), &QmlCacheGeneratedCode::_qt_qml_H2OApp_Chart_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/H2OApp/FrmLiquidVapor.qml"), &QmlCacheGeneratedCode::_qt_qml_H2OApp_FrmLiquidVapor_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/H2OApp/InputLiquidVapor.qml"), &QmlCacheGeneratedCode::_qt_qml_H2OApp_InputLiquidVapor_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

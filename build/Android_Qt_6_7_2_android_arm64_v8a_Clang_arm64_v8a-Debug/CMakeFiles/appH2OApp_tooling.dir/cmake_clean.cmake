@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "H2OApp/Chart.qml"
+  "H2OApp/FrmLiquidVapor.qml"
+  "H2OApp/InputLiquidVapor.qml"
   "H2OApp/ItemPlot.qml"
   "H2OApp/Main.qml"
   "H2OApp/Plot.qml"

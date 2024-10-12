@@ -4,6 +4,8 @@
     <file alias="Plot.qml">/Users/mbr/H2OApp/Plot.qml</file>
     <file alias="ItemPlot.qml">/Users/mbr/H2OApp/ItemPlot.qml</file>
     <file alias="Chart.qml">/Users/mbr/H2OApp/Chart.qml</file>
+    <file alias="FrmLiquidVapor.qml">/Users/mbr/H2OApp/FrmLiquidVapor.qml</file>
+    <file alias="InputLiquidVapor.qml">/Users/mbr/H2OApp/InputLiquidVapor.qml</file>
     <file alias="img/molecule.png">/Users/mbr/H2OApp/img/molecule.png</file>
     <file alias="img/scatter-graph.png">/Users/mbr/H2OApp/img/scatter-graph.png</file>
     <file alias="img/liquid-vapor.png">/Users/mbr/H2OApp/img/liquid-vapor.png</file>
