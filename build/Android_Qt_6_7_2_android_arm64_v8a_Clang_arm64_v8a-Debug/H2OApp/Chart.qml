@@ -4,13 +4,80 @@ import QtQuick.Controls 2.15
 Item {
     property string _titel: ""
     signal backClicked
-    signal getdata( list<real> x,list <real> y0)
-    onGetdata:function(x,y0) {
+    signal getdata( list<real> x,list <real> y0, list<real> y1, bool inverter)
+    property real minX
+    property real maxX
+    property real minY
+    property real maxY
 
-        for (var i = 0; i < x.length; i++)  {
-            lineseries.append(x[i],y0[i])
-            scatter1.append(x[i],y0[i])
+    function getMaxValue(list) {
+           var max = -Infinity;
+           for (var i = 0; i < list.length; i++) {
+               if (!isNaN(list[i]) && list[i] > max) {
+                   max = list[i];
+               }
+           }
+           return max;
+       }
+    function getMinValue(list) {
+        var min = -Infinity;
+        for (var i = 0; i < list.length; i++) {
+            if (!isNaN(list[i]) && list[i] < min) {
+                min = list[i];
+            }
         }
+        return min;
+    }
+
+    function getMinValue1(a, b) {
+         return a < b ? a : b;
+     }
+
+     function getMaxValue1(a, b) {
+         return a > b ? a : b;
+     }
+
+    onGetdata:function(x,y0,y1,check) {
+        lineseries1.clear()
+        scatter1.clear()
+        lineseries2.clear()
+        scatter2.clear()
+        if (check){
+            minY = getMinValue(x)
+            maxY = getMaxValue(x)
+            var miny0 = getMinValue(y0)
+            var maxy0 = getMaxValue(y0)
+            var miny1 = getMinValue(y1)
+            var maxy1 = getMaxValue(y1)
+            minX = getMinValue1(miny0,miny1)
+            maxX =  getMaxValue1(maxy0,maxy1)
+
+            for (var i = 0; i < x.length; i++)  {
+                lineseries1.append(y0[i],x[i])
+                scatter1.append(y0[i],x[i])
+                lineseries2.append(y1[i],x[i])
+                scatter2.append(y1[i],x[i])
+
+            }
+       }else{
+            minX = getMinValue(x)
+            maxX = getMaxValue(x)
+            var miny0 = getMinValue(y0)
+            var maxy0 = getMaxValue(y0)
+            var miny1 = getMinValue(y1)
+            var maxy1 = getMaxValue(y1)
+            minY = getMinValue1(miny0,miny1)
+            maxY =  getMaxValue1(maxy0,maxy1)
+            console.log(check)
+            for (var i = 0; i < x.length; i++)  {
+                lineseries1.append(x[i],y0[i])
+                scatter1.append(x[i],y0[i])
+                lineseries2.append(x[i],y1[i])
+                scatter2.append(x[i],y1[i])
+
+            }
+        }
+
     }
 
     ChartView {
@@ -18,18 +85,19 @@ Item {
          title: _titel
          anchors.fill: parent
          antialiasing: true
+
         ValuesAxis{
             id: axisX
-            min: 0
-            max: 400
+            min: minX
+            max: maxX
         }
         ValuesAxis{
             id: axisY
-            min: 0
-            max: 250
+            min: minY
+            max: maxY
         }
          LineSeries {
-             id: lineseries
+             id: lineseries1
             color: "#003B5C"
             name: "line"
             axisX: axisX
@@ -47,6 +115,26 @@ Item {
 
 
      }
+      LineSeries {
+             id: lineseries2
+            color: "#FF0000"
+            name: "line"
+            axisX: axisX
+            axisY: axisY
+            width: 5
+
+        }
+     ScatterSeries {
+        id: scatter2
+        name: "point"
+        axisX: axisX
+        axisY: axisY
+        markerSize:10
+        color: "#FF0000"
+
+
+     }
+
      PinchArea{
                id: pa
                anchors.fill: parent

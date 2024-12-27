@@ -2,16 +2,48 @@
     "classes": [
         {
             "className": "Plot",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "NamePlot",
+                    "values": [
+                        "pt",
+                        "pv",
+                        "tv",
+                        "ph",
+                        "th",
+                        "proh",
+                        "troh",
+                        "ps",
+                        "ts",
+                        "pu",
+                        "tu",
+                        "pcv",
+                        "tcv",
+                        "pcp",
+                        "tcp",
+                        "pw",
+                        "tw",
+                        "pk",
+                        "tk"
+                    ]
+                }
+            ],
             "methods": [
                 {
                     "access": "public",
                     "arguments": [
                         {
-                            "name": "step",
+                            "name": "str",
+                            "type": "NamePlot"
+                        },
+                        {
+                            "name": "value",
                             "type": "int"
                         }
                     ],
-                    "name": "Plot_Pt",
+                    "name": "drowPlot",
                     "returnType": "void"
                 }
             ],
