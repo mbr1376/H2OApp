@@ -10,8 +10,8 @@ Item {
         anchors.fill: parent
         anchors.margins: 10
         radius: 10
-        border.color: "#3F51B5"
-        color: "#3f51b5"
+        border.color: Theme._firstColor
+        color: Theme._firstColor
 
     }
     DropShadow{
@@ -21,7 +21,7 @@ Item {
         verticalOffset: 4
         radius: 8
         samples: 17
-        color: "#aaB0BEC5"
+        color: Theme._backColor50
         source: rectangel
 
         Button {
@@ -31,11 +31,11 @@ Item {
             text: qsTr("Ok")
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 5
-            icon.color: "#e91e63"
+            icon.color: Theme._secendColor
             anchors.horizontalCenter: parent.horizontalCenter
             background: Rectangle{
-                color: "#E91E63"
-                border.color: "#E91E63"
+                color: Theme._secendColor
+                border.color: Theme._secendColor
                 radius: 10
             }
             onClicked:{
@@ -56,7 +56,7 @@ Item {
         font.underline: true
         font.bold: true
         font.pointSize: 20
-        color: "#FFFFFF"
+        color: Theme._textColor
     }
 
     SpinBox {
@@ -70,7 +70,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         background: Rectangle{
         radius: 5
-            color: "#FFFFFF"
+            color: Theme._backColor
 
         }
     }

@@ -98,7 +98,7 @@ Item {
         }
          LineSeries {
              id: lineseries1
-            color: "#003B5C"
+            color: Theme._firstColor
             name: "line"
             axisX: axisX
             axisY: axisY
@@ -111,13 +111,13 @@ Item {
         axisX: axisX
         axisY: axisY
         markerSize:10
-        color: "#003B5C"
+        color: Theme._firstColor
 
 
      }
       LineSeries {
              id: lineseries2
-            color: "#FF0000"
+            color: Theme._lineColor
             name: "line"
             axisX: axisX
             axisY: axisY
@@ -130,7 +130,7 @@ Item {
         axisX: axisX
         axisY: axisY
         markerSize:10
-        color: "#FF0000"
+        color: Theme._lineColor
 
 
      }
@@ -219,7 +219,7 @@ Item {
         icon.height: 32
         icon.width: 32
         icon.source: "img/back.png"
-        icon.color: "#003B5C"
+        icon.color: Theme._firstColor
         flat: true
         highlighted: true
         onClicked: backClicked()

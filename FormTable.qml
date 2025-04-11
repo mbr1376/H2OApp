@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Controls 2.15
-
+import App.Theme 1.0
 Item {
    signal backClicked()
     Rectangle{
@@ -18,7 +18,7 @@ Item {
         icon.height: 32
         icon.width: 32
         icon.source: "img/back.png"
-        icon.color: "#003B5C"
+        icon.color: Theme._firstColor
         flat: true
         highlighted: true
         onClicked: backClicked()

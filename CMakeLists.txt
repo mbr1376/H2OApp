@@ -35,6 +35,7 @@ qt_add_qml_module(appH2OApp
         QML_FILES CustomDelayButton.qml
         QML_FILES FormTable.qml
         RESOURCES img/pressure.jpg
+        QML_FILES Theme.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

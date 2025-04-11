@@ -13,7 +13,7 @@ Item {
         id:rectangle
         anchors.fill: parent
         radius: 5
-        color: "#55FFFFFF"
+        color: Theme._backColor50
         border.color: "white"
         Switch {
             id: customSwitch
@@ -35,8 +35,8 @@ Item {
                 width: parent.width
                 height: parent.height
                 radius: height / 2
-                color: customSwitch.checked ? "#6200ee" : "#E91E63"
-                border.color: "#aaaaaa"
+                color: customSwitch.checked ? Theme._firstColor : Theme._secendColor
+                border.color: Theme._backIndecatorColor
                 border.width: 1
 
                 // Add the toggle circle
@@ -44,7 +44,7 @@ Item {
                     width: parent.height - 6
                     height: parent.height - 6
                     radius: width / 2
-                    color: "#ffffff"
+                    color: Theme._backColor
                     anchors.verticalCenter: parent.verticalCenter
                     //anchors.left: parent.left
                     //anchors.margins: 3
@@ -70,8 +70,8 @@ Item {
             anchors.horizontalCenter: parent.horizontalCenter
             font.family: "Arial"
             background: Rectangle {
-                color: "#f0f0f0"
-                border.color: "#6200ee"
+                color: Theme._backIndecatorColor
+                border.color: Theme._firstColor
                 border.width: 2
                 radius: 8
             }
@@ -91,11 +91,12 @@ Item {
             anchors.topMargin: 60
             placeholderText: "End Point"
             font.pixelSize: 18
+            //placeholderTextColor: Theme._backIndecatorColor
             anchors.horizontalCenter: parent.horizontalCenter
             font.family: "Arial"
             background: Rectangle {
-                color: "#f0f0f0"
-                border.color: "#6200ee"
+                color: Theme._backIndecatorColor
+                border.color: Theme._firstColor
                 border.width: 2
                 radius: 8
             }
@@ -119,8 +120,8 @@ Item {
             anchors.horizontalCenter: parent.horizontalCenter
             font.family: "Arial"
             background: Rectangle {
-                color: "#f0f0f0"
-                border.color: "#6200ee"
+                color: Theme._backIndecatorColor
+                border.color: Theme._firstColor
                 border.width: 2
                 radius: 8
             }
@@ -151,16 +152,16 @@ Item {
                     width: 40
                     height: 40
                     radius: width / 2
-                    border.color: option1.checked ? "#6200ee" : "#cccccc"
+                    border.color: option1.checked ? Theme._firstColor : Theme._backIndecatorColor
                     border.width: 2
-                    color: "#ffffff"
+                    color: Theme._backColor
 
                     // Inner circle for checked state
                     Rectangle {
                         width: parent.width * 0.6
                         height: parent.height * 0.6
                         radius: width / 2
-                        color: option1.checked ? "#6200ee" : "transparent"
+                        color: option1.checked ? Theme._firstColor : "transparent"
                         anchors.centerIn: parent
                     }
                 }
@@ -176,16 +177,16 @@ Item {
                     width: 40
                     height: 40
                     radius: width / 2
-                    border.color: option2.checked ? "#6200ee" : "#cccccc"
+                    border.color: option2.checked ? Theme._firstColor : Theme._backIndecatorColor
                     border.width: 2
-                    color: "#ffffff"
+                    color: Theme._backColor
 
                     // Inner circle for checked state
                     Rectangle {
                         width: parent.width * 0.6
                         height: parent.height * 0.6
                         radius: width / 2
-                        color: option2.checked ? "#6200ee" : "transparent"
+                        color: option2.checked ? Theme._firstColor : "transparent"
                         anchors.centerIn: parent
 
                     }

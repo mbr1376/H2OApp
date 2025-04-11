@@ -1,13 +1,13 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-
+import App.Theme 1.0
 Rectangle {
     id: delayButton
     width: 150
     height: 50
     radius: 12
-    color: "#6200ee"
-    border.color: "#3700b3"
+    color: Theme._firstColor
+    border.color: Theme._firstColor
     border.width: 2
 
     property alias text: buttonText.text
@@ -16,7 +16,7 @@ Rectangle {
     Text {
         id: buttonText
         text: "Button"
-        color: "#ffffff"
+        color: Theme._textColor
         font.pixelSize: 16
         anchors.centerIn: parent
     }
@@ -36,7 +36,7 @@ Rectangle {
         id: progressBar
         width: 0
         height: 4
-        color: "#03dac6"
+        color: Theme._secendColor
         radius: 2
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottom: parent.bottom
