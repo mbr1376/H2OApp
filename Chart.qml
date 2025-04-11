@@ -4,7 +4,7 @@ import QtQuick.Controls 2.15
 Item {
     property string _titel: ""
     signal backClicked
-    signal getdata( list<real> x,list <real> y0, list<real> y1, bool inverter)
+    signal getdata( list<real> x,list <real> y0, list<real> y1, bool inverter  , bool p_or_t)
     property real minX
     property real maxX
     property real minY
@@ -37,20 +37,20 @@ Item {
          return a > b ? a : b;
      }
 
-    onGetdata:function(x,y0,y1,check) {
+    onGetdata:function(x,y0,y1,check,pORt) {
         lineseries1.clear()
         scatter1.clear()
         lineseries2.clear()
         scatter2.clear()
         if (check){
-            minY = getMinValue(x)
-            maxY = getMaxValue(x)
+            minY = Math.log(getMinValue(x))
+            maxY =  Math.log(getMaxValue(x))
             var miny0 = getMinValue(y0)
             var maxy0 = getMaxValue(y0)
             var miny1 = getMinValue(y1)
             var maxy1 = getMaxValue(y1)
-            minX = getMinValue1(miny0,miny1)
-            maxX =  getMaxValue1(maxy0,maxy1)
+
+            maxY =  pORt ? 230 : 374
 
             for (var i = 0; i < x.length; i++)  {
                 lineseries1.append(y0[i],x[i])
@@ -66,9 +66,8 @@ Item {
             var maxy0 = getMaxValue(y0)
             var miny1 = getMinValue(y1)
             var maxy1 = getMaxValue(y1)
-            minY = getMinValue1(miny0,miny1)
-            maxY =  getMaxValue1(maxy0,maxy1)
-            console.log(check)
+            maxY =  pORt ? 230 : 374
+            console.log(maxY)
             for (var i = 0; i < x.length; i++)  {
                 lineseries1.append(x[i],y0[i])
                 scatter1.append(x[i],y0[i])
@@ -93,8 +92,9 @@ Item {
         }
         ValuesAxis{
             id: axisY
-            min: minY
+            min: -1
             max: maxY
+
         }
          LineSeries {
              id: lineseries1

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/H2OApp">/Users/mbr/H2OApp/build/Android_Qt_6_7_2_android_arm64_v8a_Clang_arm64_v8a-Debug/H2OApp</file>
-
-  </qresource>
-</RCC>

@@ -11,19 +11,22 @@ Item {
 
          Item{
              id: _item
-                InputLiquidVapor{
-                    anchors.top :parent.top
-                    anchors.topMargin: 30
+                InputForm{
+                    anchors.fill: parent
+                    anchors.margins: 15
                     anchors.horizontalCenter: parent.horizontalCenter
-                }
-                 InputLiquidVapor{
-                    anchors.bottom:  parent.bottom
-                    anchors.bottomMargin:   30
-                    anchors.horizontalCenter: parent.horizontalCenter
+                    onClicked: {
+                           stacklayout.currentIndex =1
+                    }
                 }
 
+
              }
+         FormTable{
+            onBackClicked: stacklayout.currentIndex =0
          }
+
+    }
 
 
 

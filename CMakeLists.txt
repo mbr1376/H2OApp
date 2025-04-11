@@ -30,7 +30,10 @@ qt_add_qml_module(appH2OApp
         SOURCES convermatlabtoc.cpp
         SOURCES plot.h plot.cpp
         QML_FILES FrmLiquidVapor.qml
-        QML_FILES InputLiquidVapor.qml
+        QML_FILES InputForm.qml
+        RESOURCES img/thermometers.png
+        QML_FILES CustomDelayButton.qml
+        QML_FILES FormTable.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

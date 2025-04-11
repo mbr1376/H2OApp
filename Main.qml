@@ -8,7 +8,7 @@ ApplicationWindow {
     height: 480
     visible: true
     color: "#332d2d"
-    title: qsTr("Hello World")
+
     header: Rectangle{
         width: window.width
         height: 40
