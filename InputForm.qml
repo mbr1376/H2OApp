@@ -17,15 +17,15 @@ Item {
         border.color: "white"
         Switch {
             id: customSwitch
-            width: 60
-            height: 30
+            width: 80
+            height: 40
             anchors.top: parent.top
             anchors.topMargin: 20
             anchors.horizontalCenter: parent.horizontalCenter
             checked: false
-            onClipChanged: {
+            onClicked: {
                 if (checked)
-                    bg.source = ""
+                    bg.source = "img/pressure.jpg"
                 else
                     bg.source = "img/thermometers.png"
             }
@@ -35,7 +35,7 @@ Item {
                 width: parent.width
                 height: parent.height
                 radius: height / 2
-                color: customSwitch.checked ? "#6200ee" : "#cccccc"
+                color: customSwitch.checked ? "#6200ee" : "#E91E63"
                 border.color: "#aaaaaa"
                 border.width: 1
 
