@@ -80,23 +80,85 @@ Item {
     }
 
     // صفحه دوم: کامپوننت چارت
-    Component {
-        id: chartPage
+                         // صفحه دوم: کامپوننت چارت با قابلیت جابجایی و زوم
+                         Component {
+                             id: chartPage
 
-        Chart {
-            id: charts
-            property var targetX
-            property var targetY0
-            property var targetY1
-            property bool targetNot: false
-            property bool targetPOrt: false
+                             Item {
+                                 id: chartContainer
+                                 anchors.fill: parent
+                                 clip: true // جلوگیری از بیرون زدن چارت هنگام زوم و جابجایی
 
-            Component.onCompleted: {
-                getdata(targetX, targetY0, targetY1, targetNot, targetPOrt)
-            }
+                                 // بخش کنترل زوم با دو انگشت (Pinch to Zoom)
+                                 PinchArea {
+                                     id: pinchArea
+                                     anchors.fill: parent
 
-            // بازگشت به صفحه قبل
-            onBackClicked: stackView.pop()
-        }
-    }
+                                     // محدوده مجاز برای مقیاس زوم (بین 0.5 برابر تا 5 برابر)
+                                     pinch.minimumScale: 0.5
+                                     pinch.maximumScale: 5.0
+
+                                     // اجازه جابجایی دو انگشتی به صورت افقی و عمودی
+                                     pinch.dragAxis: Pinch.XAndYAxis
+                                     pinch.target: chartWrapper
+
+                                     // بخش درگ و جابجایی با یک انگشت (یا ماوس)
+                                     MouseArea {
+                                         id: dragArea
+                                         anchors.fill: parent
+                                         drag.target: chartWrapper
+                                         drag.axis: Drag.XAndYAxis
+
+                                         // برای بازنشانی (Reset) زوم و موقعیت با دابل کلیک/دابل تپ
+                                         onDoubleClicked: {
+                                             chartWrapper.scale = 1.0
+                                             chartWrapper.x = 0
+                                             chartWrapper.y = 0
+                                         }
+                                     }
+                                 }
+
+                                 // لایه دربرگیرنده چارت که تغییر مقیاس و موقعیت روی آن اعمال می‌شود
+                                 Item {
+                                     id: chartWrapper
+                                     anchors.fill: parent
+
+                                     // نقطه کانونی زوم (مرکز چارت)
+                                     transformOrigin: Item.Center
+
+                                     Chart {
+                                         id: charts
+                                         anchors.fill: parent
+
+                                         property var targetX
+                                         property var targetY0
+                                         property var targetY1
+                                         property bool targetNot: false
+                                         property bool targetPOrt: false
+
+                                         Component.onCompleted: {
+                                             getdata(targetX, targetY0, targetY1, targetNot, targetPOrt)
+                                         }
+
+                                         // بازگشت به صفحه قبل
+                                         onBackClicked: stackView.pop()
+                                     }
+                                 }
+
+                                 // دکمه کمکی برای ریست کردن زوم (اختیاری)
+                                 RoundButton {
+                                     text: "⟲ Reset"
+                                     anchors.right: parent.right
+                                     anchors.bottom: parent.bottom
+                                     anchors.margins: 16
+                                     visible: chartWrapper.scale !== 1.0 || chartWrapper.x !== 0 || chartWrapper.y !== 0
+                                     onClicked: {
+                                         chartWrapper.scale = 1.0
+                                         chartWrapper.x = 0
+                                         chartWrapper.y = 0
+                                     }
+                                 }
+                             }
+                         }
+
 }
