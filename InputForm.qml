@@ -8,7 +8,9 @@ Item {
 
     width: 400
     height: 600
-    signal clicked();
+    signal clicked(string state_model,string state,int firstpoint,int Endpoint,int step )
+    property string _statemodel: "T"
+    property string _state: "Increment"
     Rectangle{
         id:rectangle
         anchors.fill: parent
@@ -24,10 +26,14 @@ Item {
             anchors.horizontalCenter: parent.horizontalCenter
             checked: false
             onClicked: {
-                if (checked)
+                if (checked){
                     bg.source = "img/pressure.jpg"
-                else
+                    _statemodel = "P"
+                }
+                else{
                     bg.source = "img/thermometers.png"
+                    _statemodel = "T"
+                }
             }
 
             // Custom indicator for the switch
@@ -165,7 +171,7 @@ Item {
                         anchors.centerIn: parent
                     }
                 }
-                onClicked: inputFieldloop.text = "1"
+                onClicked: {inputFieldloop.text = "1";_state= "Increment" }
             }
 
             RadioButton {
@@ -193,6 +199,7 @@ Item {
                 }
                 onClicked: {
                     inputFieldloop.text = "100"
+                    _state = "Intervals"
                 }
             }
         }
@@ -206,7 +213,7 @@ Item {
             anchors.horizontalCenter: parent.horizontalCenter
 
             onClicked: {
-                _item.clicked()
+                _item.clicked(_statemodel,_state,inputFieldstart.text,inputFieldend.text,inputFieldloop.text)
             }
 
         }

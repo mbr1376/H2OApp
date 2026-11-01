@@ -4,7 +4,7 @@ project(H2OApp VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Charts)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Quick QuickControls2 Charts)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
@@ -17,25 +17,21 @@ qt_add_qml_module(appH2OApp
     VERSION 1.0
     QML_FILES
         Main.qml
-        RESOURCES img/molecule.png
-        RESOURCES img/scatter-graph.png
-        QML_FILES Plot.qml
-        QML_FILES ItemPlot.qml
-        RESOURCES img/liquid-vapor.png img/saturation_Point.png
-        RESOURCES img/Compressed.png
-        RESOURCES img/vapor.png
-        QML_FILES Chart.qml
-        RESOURCES img/back.png
-        SOURCES convermatlabtoc.h
-        SOURCES convermatlabtoc.cpp
-        SOURCES plot.h plot.cpp
-        QML_FILES FrmLiquidVapor.qml
-        QML_FILES InputForm.qml
-        RESOURCES img/thermometers.png
-        QML_FILES CustomDelayButton.qml
-        QML_FILES FormTable.qml
-        RESOURCES img/pressure.jpg
-        QML_FILES Theme.qml
+        Plot.qml
+        ItemPlot.qml
+        Chart.qml
+        FrmLiquidVapor.qml
+        InputForm.qml
+        CustomDelayButton.qml
+        FormTable.qml
+        Theme.qml
+    SOURCES
+        convermatlabtoc.h
+        convermatlabtoc.cpp
+        plot.h
+        plot.cpp
+        SteamCalculator.h
+        SteamCalculator.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -50,7 +46,7 @@ set_target_properties(appH2OApp PROPERTIES
 )
 
 target_link_libraries(appH2OApp
-    PRIVATE Qt6::Quick Qt6::Charts
+    PRIVATE Qt6::Quick Qt6::QuickControls2 Qt6::Charts
 )
 
 include(GNUInstallDirs)

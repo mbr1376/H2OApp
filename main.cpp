@@ -1,10 +1,14 @@
 #include <QApplication>
+#include <QQuickStyle>
 #include <QQmlApplicationEngine>
-#include  "plot.h"
+#include "plot.h"
+#include "SteamCalculator.h"
 int main(int argc, char *argv[])
 {
+    QQuickStyle::setStyle(QStringLiteral("Basic"));
     QApplication app(argc, argv);
-    qmlRegisterType<Plot>("Plots", 1,0 ,"PlotCpp");
+    qmlRegisterType<Plot>("Plots", 1, 0, "PlotCpp");
+    qmlRegisterType<SteamCalculator>("Steam", 1, 0, "SteamCalculator");
 
     qmlRegisterSingletonType(QUrl(QStringLiteral("qrc:/qt/qml/H2OApp/Theme.qml")), "App.Theme", 1, 0, "Theme");
 

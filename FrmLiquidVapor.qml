@@ -15,7 +15,8 @@ Item {
                     anchors.fill: parent
                     anchors.margins: 15
                     anchors.horizontalCenter: parent.horizontalCenter
-                    onClicked: {
+                    onClicked: function(_statemodel,_state,inputFieldstart,inputFieldend,inputFieldloop){
+                        console.log(_statemodel,_state,inputFieldstart,inputFieldend,inputFieldloop)
                            stacklayout.currentIndex =1
                     }
                 }
