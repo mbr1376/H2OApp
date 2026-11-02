@@ -4,7 +4,7 @@ import QtQuick.Layouts
 import App.Theme 1.0
 import Steam 1.0
 import Plots 1.0
-
+import Qt5Compat.GraphicalEffects
 ApplicationWindow {
     id: root
     width: 420
@@ -1146,83 +1146,135 @@ ApplicationWindow {
         currentIndex: root.selectedPage
         onCurrentIndexChanged: root.selectedPage = currentIndex
         background: Rectangle { color: "#111D31" }
+
+        // ۱. تب Calculate
         TabButton {
             text: "Calculate"
-            contentItem: Column {
-                spacing: 2
-                Text {
-                    text: "∑"
-                    color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
-                    font.pixelSize: 17
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-                Text {
-                    text: parent.parent.text
-                    color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
-                    font.pixelSize: 9
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
+            contentItem: Item {
+                anchors.fill: parent
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 4
+                    Image {
+                        id: iconCalc
+                        source: "assets/img/calculator.svg"
+                        width: 22
+                        height: 22
+                        fillMode: Image.PreserveAspectFit
+                        horizontalAlignment: Image.AlignHCenter
+                        visible: false
+                    }
+                    ColorOverlay {
+                        anchors.fill: iconCalc
+                        source: iconCalc
+                        color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
+                    }
+                    Text {
+                        text: "Calculate"
+                        color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
+                        font.pixelSize: 10
+                        horizontalAlignment: Text.AlignHCenter
+                        width: 50
+                    }
                 }
             }
         }
+
+        // ۲. تب Results
         TabButton {
             text: "Results"
-            contentItem: Column {
-                spacing: 2
-                Text {
-                    text: "▦"
-                    color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
-                    font.pixelSize: 17
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-                Text {
-                    text: parent.parent.text
-                    color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
-                    font.pixelSize: 9
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
+            contentItem: Item {
+                anchors.fill: parent
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 4
+                    Image {
+                        id: iconResults
+                        source: "assets/img/table.svg"
+                        width: 22
+                        height: 22
+                        fillMode: Image.PreserveAspectFit
+                        horizontalAlignment: Image.AlignHCenter
+                        visible: false
+                    }
+                    ColorOverlay {
+                        anchors.fill: iconResults
+                        source: iconResults
+                        color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
+                    }
+                    Text {
+                        text: "Results"
+                        color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
+                        font.pixelSize: 10
+                        horizontalAlignment: Text.AlignHCenter
+                        width: 50
+                    }
                 }
             }
         }
+
+        // ۳. تب Tables
         TabButton {
             text: "Tables"
-            contentItem: Column {
-                spacing: 2
-                Text {
-                    text: "▤"
-                    color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
-                    font.pixelSize: 17
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-                Text {
-                    text: parent.parent.text
-                    color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
-                    font.pixelSize: 9
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
+            contentItem: Item {
+                anchors.fill: parent
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 4
+                    Image {
+                        id: iconTables
+                        source: "assets/img/table.svg"
+                        width: 22
+                        height: 22
+                        fillMode: Image.PreserveAspectFit
+                        horizontalAlignment: Image.AlignHCenter
+                        visible: false
+                    }
+                    ColorOverlay {
+                        anchors.fill: iconTables
+                        source: iconTables
+                        color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
+                    }
+                    Text {
+                        text: "Tables"
+                        color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
+                        font.pixelSize: 10
+                        horizontalAlignment: Text.AlignHCenter
+                        width: 50
+                    }
                 }
             }
         }
+
+        // ۴. تب Plotter
         TabButton {
             text: "Plotter"
-            contentItem: Column {
-                spacing: 2
-                Text {
-                    text: "⌁"
-                    color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
-                    font.pixelSize: 17
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-                Text {
-                    text: parent.parent.text
-                    color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
-                    font.pixelSize: 9
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
+            contentItem: Item {
+                anchors.fill: parent
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 4
+                    Image {
+                        id: iconPlotter
+                        source: "assets/img/plotter.svg"
+                        width: 22
+                        height: 22
+                        fillMode: Image.PreserveAspectFit
+                        horizontalAlignment: Image.AlignHCenter
+                        visible: false
+                    }
+                    ColorOverlay {
+                        anchors.fill: iconPlotter
+                        source: iconPlotter
+                        color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
+                    }
+                    Text {
+                        text: "Plotter"
+                        color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
+                        font.pixelSize: 10
+                        horizontalAlignment: Text.AlignHCenter
+                        width: 50
+                    }
                 }
             }
         }

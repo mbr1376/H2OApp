@@ -80,6 +80,7 @@ qt_add_qml_module(appH2OApp
     RESOURCES
         assets/img/water_drop.svg
         assets/img/splash.png
+        RESOURCES assets/img/calculator.svg assets/img/table.svg assets/img/plotter.svg assets/img/settings.svg
 )
 
 target_include_directories(appH2OApp PRIVATE
