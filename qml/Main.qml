@@ -232,11 +232,11 @@ ApplicationWindow {
             anchors.leftMargin: 20
             anchors.rightMargin: 20
             spacing: 10
-            Text {
-                text: "◈"
-                color: root.accent
-                font.pixelSize: 24
-                font.bold: true
+            Image {
+                source: "assets/img/water_drop.svg"
+                Layout.preferredWidth: 26
+                       Layout.preferredHeight: 26
+                       fillMode: Image.PreserveAspectFit
             }
             Text {
                 text: "SteamLab"
