@@ -1141,142 +1141,190 @@ ApplicationWindow {
     }
 
     footer: TabBar {
-        id: navigation
-        visible: root.selectedPage !== 3
-        currentIndex: root.selectedPage
-        onCurrentIndexChanged: root.selectedPage = currentIndex
-        background: Rectangle { color: "#111D31" }
+                id: navigation
+                visible: root.selectedPage !== 3
+                currentIndex: root.selectedPage
+                onCurrentIndexChanged: root.selectedPage = currentIndex
+                implicitHeight: 62
 
-        // ۱. تب Calculate
-        TabButton {
-            text: "Calculate"
-            contentItem: Item {
-                anchors.fill: parent
-                Column {
-                    anchors.centerIn: parent
-                    spacing: 4
-                    Image {
-                        id: iconCalc
-                        source: "assets/img/calculator.svg"
-                        width: 22
-                        height: 22
-                        fillMode: Image.PreserveAspectFit
-                        horizontalAlignment: Image.AlignHCenter
-                        visible: false
+                background: Rectangle {
+                    color: "#111D31"
+                    Rectangle {
+                        anchors.top: parent.top
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        height: 1
+                        color: "#1E293B"
                     }
-                    ColorOverlay {
-                        anchors.fill: iconCalc
-                        source: iconCalc
-                        color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
+                }
+
+                // 1. Calculate
+                TabButton {
+                    id: btnCalc
+                    contentItem: Item {
+                        implicitHeight: 52
+                        Column {
+                            anchors.centerIn: parent
+                            spacing: 3
+
+                            Item {
+                                width: 24
+                                height: 24
+                                x: (parent.width - width) / 2
+
+                                Image {
+                                    id: imgCalc
+                                    anchors.fill: parent
+                                    source: "assets/img/calculator.svg"
+                                    fillMode: Image.PreserveAspectFit
+                                    visible: false
+                                }
+                                ColorOverlay {
+                                    anchors.fill: imgCalc
+                                    source: imgCalc
+                                    color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
+                                }
+                            }
+
+                            Text {
+                                text: "Calculate"
+                                font.pixelSize: 10
+                                font.weight: navigation.currentIndex === 0 ? Font.DemiBold : Font.Normal
+                                color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
+                                horizontalAlignment: Text.AlignHCenter
+                            }
+                        }
                     }
-                    Text {
-                        text: "Calculate"
-                        color: navigation.currentIndex === 0 ? root.accent : root.secondaryText
-                        font.pixelSize: 10
-                        horizontalAlignment: Text.AlignHCenter
-                        width: 50
+                    background: Rectangle {
+                        color: "transparent"
+                    }
+                }
+
+                // 2. Results
+                TabButton {
+                    id: btnResults
+                    contentItem: Item {
+                        implicitHeight: 52
+                        Column {
+                            anchors.centerIn: parent
+                            spacing: 3
+
+                            Item {
+                                width: 24
+                                height: 24
+                                x: (parent.width - width) / 2
+
+                                Image {
+                                    id: imgResults
+                                    anchors.fill: parent
+                                    source: "assets/img/table.svg"
+                                    fillMode: Image.PreserveAspectFit
+                                    visible: false
+                                }
+                                ColorOverlay {
+                                    anchors.fill: imgResults
+                                    source: imgResults
+                                    color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
+                                }
+                            }
+
+                            Text {
+                                text: "Results"
+                                font.pixelSize: 10
+                                font.weight: navigation.currentIndex === 1 ? Font.DemiBold : Font.Normal
+                                color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
+                                horizontalAlignment: Text.AlignHCenter
+                            }
+                        }
+                    }
+                    background: Rectangle {
+                        color: "transparent"
+                    }
+                }
+
+                // 3. Tables
+                TabButton {
+                    id: btnTables
+                    contentItem: Item {
+                        implicitHeight: 52
+                        Column {
+                            anchors.centerIn: parent
+                            spacing: 3
+
+                            Item {
+                                width: 24
+                                height: 24
+                                x: (parent.width - width) / 2
+
+                                Image {
+                                    id: imgTables
+                                    anchors.fill: parent
+                                    source: "assets/img/table.svg"
+                                    fillMode: Image.PreserveAspectFit
+                                    visible: false
+                                }
+                                ColorOverlay {
+                                    anchors.fill: imgTables
+                                    source: imgTables
+                                    color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
+                                }
+                            }
+
+                            Text {
+                                text: "Tables"
+                                font.pixelSize: 10
+                                font.weight: navigation.currentIndex === 2 ? Font.DemiBold : Font.Normal
+                                color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
+                                horizontalAlignment: Text.AlignHCenter
+                            }
+                        }
+                    }
+                    background: Rectangle {
+                        color: "transparent"
+                    }
+                }
+
+                // 4. Plotter
+                TabButton {
+                    id: btnPlotter
+                    contentItem: Item {
+                        implicitHeight: 52
+                        Column {
+                            anchors.centerIn: parent
+                            spacing: 3
+
+                            Item {
+                                width: 24
+                                height: 24
+                                x: (parent.width - width) / 2
+
+                                Image {
+                                    id: imgPlotter
+                                    anchors.fill: parent
+                                    source: "assets/img/plotter.svg"
+                                    fillMode: Image.PreserveAspectFit
+                                    visible: false
+                                }
+                                ColorOverlay {
+                                    anchors.fill: imgPlotter
+                                    source: imgPlotter
+                                    color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
+                                }
+                            }
+
+                            Text {
+                                text: "Plotter"
+                                font.pixelSize: 10
+                                font.weight: navigation.currentIndex === 3 ? Font.DemiBold : Font.Normal
+                                color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
+                                horizontalAlignment: Text.AlignHCenter
+                            }
+                        }
+                    }
+                    background: Rectangle {
+                        color: "transparent"
                     }
                 }
             }
-        }
 
-        // ۲. تب Results
-        TabButton {
-            text: "Results"
-            contentItem: Item {
-                anchors.fill: parent
-                Column {
-                    anchors.centerIn: parent
-                    spacing: 4
-                    Image {
-                        id: iconResults
-                        source: "assets/img/table.svg"
-                        width: 22
-                        height: 22
-                        fillMode: Image.PreserveAspectFit
-                        horizontalAlignment: Image.AlignHCenter
-                        visible: false
-                    }
-                    ColorOverlay {
-                        anchors.fill: iconResults
-                        source: iconResults
-                        color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
-                    }
-                    Text {
-                        text: "Results"
-                        color: navigation.currentIndex === 1 ? root.accent : root.secondaryText
-                        font.pixelSize: 10
-                        horizontalAlignment: Text.AlignHCenter
-                        width: 50
-                    }
-                }
-            }
-        }
-
-        // ۳. تب Tables
-        TabButton {
-            text: "Tables"
-            contentItem: Item {
-                anchors.fill: parent
-                Column {
-                    anchors.centerIn: parent
-                    spacing: 4
-                    Image {
-                        id: iconTables
-                        source: "assets/img/table.svg"
-                        width: 22
-                        height: 22
-                        fillMode: Image.PreserveAspectFit
-                        horizontalAlignment: Image.AlignHCenter
-                        visible: false
-                    }
-                    ColorOverlay {
-                        anchors.fill: iconTables
-                        source: iconTables
-                        color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
-                    }
-                    Text {
-                        text: "Tables"
-                        color: navigation.currentIndex === 2 ? root.accent : root.secondaryText
-                        font.pixelSize: 10
-                        horizontalAlignment: Text.AlignHCenter
-                        width: 50
-                    }
-                }
-            }
-        }
-
-        // ۴. تب Plotter
-        TabButton {
-            text: "Plotter"
-            contentItem: Item {
-                anchors.fill: parent
-                Column {
-                    anchors.centerIn: parent
-                    spacing: 4
-                    Image {
-                        id: iconPlotter
-                        source: "assets/img/plotter.svg"
-                        width: 22
-                        height: 22
-                        fillMode: Image.PreserveAspectFit
-                        horizontalAlignment: Image.AlignHCenter
-                        visible: false
-                    }
-                    ColorOverlay {
-                        anchors.fill: iconPlotter
-                        source: iconPlotter
-                        color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
-                    }
-                    Text {
-                        text: "Plotter"
-                        color: navigation.currentIndex === 3 ? root.accent : root.secondaryText
-                        font.pixelSize: 10
-                        horizontalAlignment: Text.AlignHCenter
-                        width: 50
-                    }
-                }
-            }
-        }
-    }
 }
